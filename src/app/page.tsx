@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800">
@@ -10,9 +12,11 @@ export default function Home() {
           <p className="text-xl text-slate-300 mb-8">
             Who learns your business in weeks. Day 1 capable. Evolves with you.
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition">
-            Start Free Trial
-          </button>
+          <Link href="/onboard">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition">
+              Start Free Trial
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -68,9 +72,11 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-white mb-8">
           Replace 25 people. Hire 1 incredible digital employee.
         </h2>
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition">
-          Request Demo
-        </button>
+        <Link href="/onboard">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition">
+            Request Demo
+          </button>
+        </Link>
       </section>
     </main>
   )
