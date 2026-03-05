@@ -4,25 +4,7 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_DOMAIN": {
-      "description": "Domain for Digital Employees",
-      "default": "digitalemployees.io"
-    },
-    "AUTH0_SECRET": {
-      "description": "Auth0 application secret",
-      "required": true
-    },
-    "AUTH0_BASE_URL": {
-      "description": "Auth0 base URL",
-      "default": "https://digitalemployees.io"
-    },
-    "SLACK_CLIENT_ID": {
-      "description": "Slack app client ID",
-      "required": true
-    },
-    "SLACK_CLIENT_SECRET": {
-      "description": "Slack app client secret",
-      "required": true
-    }
+    "NEXT_PUBLIC_DOMAIN": "digitalemployees.io",
+    "AUTH0_BASE_URL": "https://digitalemployees.io"
   }
 }
